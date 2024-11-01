@@ -1,8 +1,8 @@
 :root{
-    --fundo :#377679;
-    --cartao-frente: #aaaaff;
+    --fundo :#ffffff;
+    --cartao-frente: #B0E0E6;
     --cartao-verso: #000000;
-    --destaque: #8f62ff;
+    --destaque: #000000;
     --preto: #000000;
     --branco: #ffffff;
 }
@@ -12,10 +12,10 @@ body{
 }
 
 header{
-background-color: var(--preto);
-display: flex;
-justify-content: space-around;
-padding: 2rem;
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
 }
 
 header a{
@@ -25,11 +25,11 @@ header a{
 
 footer{
     position: fixed;
-bottom: 0;
-background-color: var(--preto);
-color: var(--branco);
-width: 100%;
-text-align: center;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
 
 }
 #container{
