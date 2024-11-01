@@ -94,7 +94,7 @@ criaCartao(
     'Exercícios aeróbicos são atividades que aumentam a frequência cardíaca e a respiração, como correr, nadar e andar de bicicleta, promovendo a resistência cardiovascular.'
 )
 
-criaartao(
+criaCartao(
     'Filosofia',
     'O que é racionalismo?',
     'Racionalismo é uma corrente filosófica que enfatiza a razão como a principal fonte de conhecimento, defendendo que as ideias inatas são fundamentais para a compreensão do mundo.'
