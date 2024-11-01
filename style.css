@@ -54,15 +54,15 @@ transition: transform 300ms ease-in-out;
     border: 1px solid var(--destaque);
     position: absolute;
     text-align: left;
-    margin: 0.6rem;
-    border-radius: 0.6rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
     font-size: 1vw;
     backface-visibility: hidden;
 }
 .conteudo-cartao p{
     margin-top: 4rem;
     font-size: 1.4rem;
-    padding: 2rem;
+    pad: 2rem;
 }
 .pergunta-cartao{
     font-weight: 500;
@@ -71,7 +71,7 @@ transition: transform 300ms ease-in-out;
     font-weight: 700;
     color: var(--destaque);
 }
-.cartao:active .conteudo-cartao{
+.cartao.active .conteudo-cartao{
     transform: rotateY(180deg);
 }
 .pergunta-cartao, .resposta-cartao{
